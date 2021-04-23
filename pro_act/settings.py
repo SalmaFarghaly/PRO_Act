@@ -150,12 +150,20 @@ MEDIA_URL='/media/'
 CRISPY_TEMPLATE_PACK= 'bootstrap4'
 
 # email
+# EMAIL_HOST = "smtp.gmail.com"
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = ""
+# EMAIL_HOST_PASSWORD = ""
+# EMAIL_USE_TLS = True
+# DEFAULT_FROM_EMAIL = 'PRO ACT <no-reply@pro_act.com>'
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = ""
-EMAIL_HOST_PASSWORD = ""
+EMAIL_HOST_USER = "mahmouddihab@gmail.com"
+EMAIL_HOST_PASSWORD = "787vfgsERp!@japp"
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'PRO ACT <no-reply@pro_act.com>'
+DEFAULT_FROM_EMAIL = 'mahmouddihab@gmail.com'
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 
 #AUTHENTICATION SETUP
@@ -171,7 +179,8 @@ LOGIN_REDIRECT_URL = '/'
 SOCIAL_AUTH_FACEBOOK_KEY = '1180950695658575'
 SOCIAL_AUTH_FACEBOOK_SECRET = 'ab9a447566e71d032ef40bc6d0741a3c'
 
-GOOGLE_RECAPTCHA_SECRET_KEY = '6Leyjo4aAAAAAAXeI5fn3ou2pk732fUayMcx9ZbZ'
+# GOOGLE_RECAPTCHA_SECRET_KEY = '6Leyjo4aAAAAAAXeI5fn3ou2pk732fUayMcx9ZbZ'
+GOOGLE_RECAPTCHA_SECRET_KEY = '6Lcj764aAAAAAOo0enxoHpr1LjOAm2Eu4V0rfMsg'
 
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
